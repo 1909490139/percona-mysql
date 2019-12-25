@@ -1,4 +1,4 @@
-FROM percona:5.7.23-stretch
+FROM mysql:5.7-stretch
 LABEL creater="barnett"
 ENV MYSQL_VERSION=5.7.23
 ENV TZ=Asia/Shanghai
