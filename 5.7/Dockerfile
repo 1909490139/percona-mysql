@@ -1,4 +1,4 @@
-FROM mysql:5.7-stretch
+FROM mysql:5.7.23
 LABEL creater="barnett"
 ENV MYSQL_VERSION=5.7.23
 ENV TZ=Asia/Shanghai
